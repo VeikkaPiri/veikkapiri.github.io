@@ -1,5 +1,23 @@
 html {
   background-color: #ff3300; 
 }
-h1 { color:white}
-h3 { color:white}
+
+body {
+    font-family:Pacifico;
+    
+}
+
+p { color: white;
+    font-size:180%
+}
+/* ID */
+#contactme {
+    color:white;
+    
+    
+}
+ /* Class */
+.welcometext {
+    color:white;
+}
+
