@@ -3,16 +3,25 @@ html {
 }
 
 body {
-    font-family:Arial;
+    font-family:Arial,sans-serif;
     
 }
 
 p { color: white;
     font-size:180%
 }
+
+#chillmusic {
+    position:absolute;
+    top:1.5%;
+    left:11%;
+    
+}
 /* ID */
 #contactme {
     color:white;
+    position: absolute;
+    left: 40%;
     
     
 }
