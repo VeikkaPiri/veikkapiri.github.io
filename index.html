@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
+        <link rel="stylesheet" href="style.css">
         <title>Veikka Piri</title>
     </head>
     <body>
@@ -20,14 +21,25 @@
         </nav>
         <!-- The main Stuff -->
         <article>
-            <h1 align="center">Hi, I'm Veikka Piri</h1>
+            <h1 align="center">Hi, I'm Veikka Piri!</h1>
             <br/>
             <h3 align="center">And I'm really glad you made it to my website</h3>
-            <video controls muted autoplay loop>
+            <video width="100%" controls muted autoplay loop>
                 <source src="hacking.mp4.mp4" type="video/mp4">
                 Video is not supported by your browser, get a new one bro.
             </video>
-           
+            <form>
+                <label>Email</label>
+                <input id="email" type="email" placeholder="email@example.com" size="28" required>
+                <br/>
+                <label>Name</label>
+                <input id="name" type="text" placeholder="Your name"  size="28" required>
+                <br/>
+                <label>Phone number</label>
+                <input id="phonenumber" type="tel" placeholder="555 555 1211 (optional)" >
+                <br/>
+                <input type="submit">
+            </form>
         </article>
         <!--  Basic footer, containing privacy policy, maybe TOS and some social media account links -->
         <footer id="footer-container">
