@@ -7,8 +7,12 @@ body {
     
 }
 
-p { color: white;
-    font-size:180%
+p.progress { color: white;
+    font-size:105%;
+    position: absolute;
+    top: 0%;
+    left: 90vw;
+        
 }
 
 #chillmusic {
@@ -23,13 +27,6 @@ p { color: white;
     position: absolute;
     left: 40%;
     font-size: x-large;    
-}
-
-#progressbar {
-    position: absolute;
-    top: 1.5%;
-        
-
 }
 
  /* Class */
