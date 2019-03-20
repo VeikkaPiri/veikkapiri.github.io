@@ -22,11 +22,20 @@ p { color: white;
     color:white;
     position: absolute;
     left: 40%;
-    
-    
+    font-size: x-large;    
 }
+
+#progressbar {
+    position: absolute;
+    top: 1.5%;
+        
+
+}
+
  /* Class */
 .welcometext {
     color:white;
 }
+
+
 
