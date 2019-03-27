@@ -1,5 +1,5 @@
 html {
-  background-color: #ff3300; 
+  background-color: black; 
 }
 
 body {
@@ -12,7 +12,6 @@ p.progress { color: white;
     position: absolute;
     top: 0%;
     left: 90vw;
-        
 }
 
 #chillmusic {
@@ -37,5 +36,27 @@ p.progress { color: white;
 h3.welcometext {
     font-style: italic;
 }
+.navbar {
+    overflow: hidden;
+    background-color: white;
+    position: static;
+    top: 0;
+    width: 100%;
+    
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar a:hover {
+    background: black;
+    color: white;
+}
 
+    
+}
 

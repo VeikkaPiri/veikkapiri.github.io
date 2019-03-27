@@ -10,9 +10,29 @@ h1 {
 p.latestposts {
     position:absolute;
     left: 10%;
-    top: 13%;
+    top: 25%;
     font-variant: small-caps;
     font-size: 20px;
     
     
+}
+.navbar {
+    overflow: hidden;
+    background-color: white;
+    position: static;
+    top: 0;
+    width: 100%;
+    
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar a:hover {
+    background: black;
+    color: white;
 }
