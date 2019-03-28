@@ -1,0 +1,32 @@
+﻿html {
+    background-color: black;
+    color: white;
+    
+}
+body {
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    overflow: hidden;
+    background-color: white;
+    position: static;
+    top: 0;
+    width: 100%;
+    
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar a:hover {
+    background: black;
+    color: white;
+}
+h1.maintitle {
+    text-align: center;
+    font-variant: small-caps;
+}
