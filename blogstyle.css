@@ -1,5 +1,4 @@
 html {
-    font-family:Arial;
     background-color: black;
     color: white;
 }
@@ -35,4 +34,8 @@ p.latestposts {
 .navbar a:hover {
     background: black;
     color: white;
+}
+p.latestposts {
+    text-decoration: underline;
+    
 }

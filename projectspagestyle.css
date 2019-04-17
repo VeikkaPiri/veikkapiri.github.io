@@ -4,7 +4,7 @@
     
 }
 body {
-    font-family: Arial, sans-serif;
+
 }
 .navbar {
     overflow: hidden;
@@ -26,7 +26,11 @@ body {
     background: black;
     color: white;
 }
-h1.maintitle {
+h1.currentprojects {
+    text-align: center;
+    font-variant: small-caps;
+}
+h1.pastprojects {
     text-align: center;
     font-variant: small-caps;
 }

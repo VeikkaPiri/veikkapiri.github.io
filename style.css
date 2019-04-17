@@ -3,7 +3,6 @@ html {
 }
 
 body {
-    font-family:Arial,sans-serif;
     
 }
 
@@ -14,28 +13,36 @@ p.progress { color: white;
     left: 90vw;
 }
 
-#chillmusic {
-    position:absolute;
-    top:1.5%;
-    left:11%;
-    
-}
-/* ID */
-#contactme {
-    color:white;
-    position: absolute;
-    left: 40%;
-    font-size: x-large;    
-}
-
  /* Class */
-.welcometext {
+#welcometext {
+    background-image: url("mainpagephoto.jpg");
+    padding: 400px;
+    background-repeat: no-repeat;
+    background-color: black;
     color:white;
+    text-align:center;
+    background-attachment: fixed;
+    margin-top: 5px;
     
+}
+h1.welcometext {
+    font-size: 35px;
 }
 h3.welcometext {
     font-style: italic;
+    text-indent: 20px;
+    word-spacing: 5px;
+    padding: 5px;
+    font-size: 30px;
+ 
 }
+a.newsletter {
+    font-size: 30px;
+    color: white;
+    padding: 10px;
+    border: 3px solid white;
+}
+
 .navbar {
     overflow: hidden;
     background-color: white;
