@@ -1,5 +1,7 @@
 html {
-  background-color: black; 
+  background-color: whitesmoke;
+    color: black;
+    cursor: crosshair;
 }
 
 body {
@@ -19,7 +21,7 @@ p.progress { color: white;
     padding: 400px;
     background-repeat: no-repeat;
     background-color: black;
-    color:white;
+    color: white;
     text-align:center;
     background-attachment: fixed;
     margin-top: 5px;
@@ -41,11 +43,17 @@ a.newsletter {
     color: white;
     padding: 10px;
     border: 3px solid white;
+    text-decoration:none;
+}
+a.newsletter:hover {
+    padding: 15px;
+    border: 3px dashed white;
+    
 }
 
 .navbar {
     overflow: hidden;
-    background-color: white;
+    background-color: green;
     position: static;
     top: 0;
     width: 100%;
@@ -54,16 +62,13 @@ a.newsletter {
 .navbar a {
   float: left;
   display: block;
-  color: black;
+  color: whitesmoke;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 .navbar a:hover {
-    background: black;
-    color: white;
-}
-
-    
+    background: whitesmoke;
+    color: green;
 }
 

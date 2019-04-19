@@ -1,6 +1,7 @@
 ﻿html {
-    background-color: black;
-    color: white;
+    background-color: whitesmoke;
+    color: black;
+    cursor: crosshair;
     
 }
 body {
@@ -8,7 +9,7 @@ body {
 }
 .navbar {
     overflow: hidden;
-    background-color: white;
+    background-color: green;
     position: static;
     top: 0;
     width: 100%;
@@ -17,14 +18,14 @@ body {
 .navbar a {
   float: left;
   display: block;
-  color: black;
+  color: whitesmoke;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 .navbar a:hover {
-    background: black;
-    color: white;
+    background: whitesmoke;
+    color: green;
 }
 h1.currentprojects {
     text-align: center;

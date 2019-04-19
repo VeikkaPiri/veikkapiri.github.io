@@ -1,10 +1,11 @@
 ﻿html {
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: whitesmoke;
+    cursor: crosshair;
 }
 .navbar {
     overflow: hidden;
-    background-color: white;
+    background-color: green;
     position: static;
     top: 0;
     width: 100%;
@@ -13,20 +14,19 @@
 .navbar a {
   float: left;
   display: block;
-  color: black;
+  color: whitesmoke;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 .navbar a:hover {
-    background: black;
-    color: white;
+    background: whitesmoke;
+    color: green;
 }
 /* ID */
 #contactme {
-    color:white;
+    color: black;
     position: absolute;
     left: 40%;
     font-size: xx-large;
-    border: 2px solid white;
 }
