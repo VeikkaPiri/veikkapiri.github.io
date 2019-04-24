@@ -1,46 +1,61 @@
-<!DOCTYPE html>
-<html id="home">
-	<head>
-        <meta name="description" content="Veikka Piri's personal website including articles, blogs, tutorials and more...">
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="style.css">
+﻿<!DOCTYPE html>
+
+<html>
+    
+    <head>
         <title>Veikka Piri</title>
-        <link rel="shortcut icon" type="image/png" href="secondlogo.jpg"/>
+    
     </head>
+    
     <body>
-        <!-- Logo -->
         <header>
-            <img id="mainlogo" src="secondlogo.jpg" alt="Veikka Piri" height=20% width=10% border="1px">
+            <div class="container">
+                <a href="index.html"> Home </a>
+                <ul>
+                    <li><a href="blog.html"> Blog </a></li>
+                    <li><a href="about.html"> About </a></li>
+                    <li><a href="contact.html"> Contact</a></li>
+                </ul>
                 
+            
+            </div>
+        
         </header>
         
-        <!-- Navigation bar etc -->
-        <nav>
-            <div class="navbar">
-                <a href="index.html">Homepage</a>
-                <a href="blog.html">Blog</a>
-                <a href="projects.html">Projects</a>
-                <a href="contact.html">Contact</a>
-            </div>
-        </nav>
-        <!-- The main Stuff -->
-        <article>
-            <div id="welcometext">
-                <h1 class="welcometext" >Hi.</h1>
-                <h1 class="welcometext" >I'm Veikka Piri</h1>
-                <br/>
-                <h3 class="welcometext" >I'm student from Espoo, Finland, who is passionate <br/> about coding, personal development and online privacy.</h3>
-                
-                <a class="newsletter" href="" style="cursor: not-allowed" target="_blank">Join my newsletter</a>
+        <div id="content-section">
             
+            <div class="container">
             
             </div>
-            
-        </article>
-        <!--  Basic footer, containing privacy policy, maybe TOS and some social media account links -->
-        <footer id="footer-container">
-           
-        </footer>
         
+        
+        </div>
+        
+        <footer>
+            
+            <div class="container">
+                <div class="column" id="left-footer">
+                    <h4>My Links</h4>
+                    <p>
+                        <a href="https://www.minds.com/veikkapiri" target="_blank"> Minds </a>
+                        <br>
+                        <a href="mailto:veikkapiri@tuta.io"> Email </a>
+                    </p>
+                    
+                </div>
+                
+                <div class="column" id="right-footer">
+                    <h4>My Story</h4>
+                    
+                    <p>I'm passionate about coding, online privacy and self development</p>
+                
+                </div>
+            </div>
+        
+        </footer>
+    
     </body>
+
+
+
 </html>
