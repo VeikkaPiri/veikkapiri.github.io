@@ -131,3 +131,10 @@ p {
 .post-container:nth-child(even) {
     background-color: #f2f2f2;
 }
+
+.minds-image {
+    width: 800px;
+    height: 500px;
+    border: 3px solid black;
+
+}
