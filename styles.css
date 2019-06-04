@@ -12,7 +12,7 @@ body {
 header {
     background-color: #1abc9c;
     height: 150px;
-    line-height: 150px;
+    line-height: 150px; 
 }
 
 header a {
@@ -125,7 +125,7 @@ p {
 }
 
 .post-author img, .about-author img {
-    border-radius: 50%;
+    border-radius: 40%;
 }
 
 .post-container:nth-child(even) {
@@ -141,4 +141,10 @@ p {
 
 h5 {
     font-size: 16px;
+}
+
+#Mainpagephoto {
+    width: 100%;
+    vertical-align: middle;
+    z-index: 0%;
 }
