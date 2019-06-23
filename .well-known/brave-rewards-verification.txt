@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: veikkapiri.com
+Token: a7aae9a9bc596e719a9b9ac2a3c139fdef10993bae0138f52d933995e1ba57b4
